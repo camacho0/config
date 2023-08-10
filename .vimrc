@@ -13,6 +13,12 @@ set tabstop=2
 set autoindent
 set laststatus=2
 set bg=dark
+set wildmenu       " enable visual wildmenu
+set nohlsearch     " clear highlight after a search
+"swap
+set nobackup
+set nowritebackup
+set noswapfile
 
 call plug#begin('~/.vim/plugged')
 
